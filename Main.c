@@ -3,9 +3,17 @@
 
 int	main(void)
 {
-	printf("%d\n",ft_isdigit('7'));
+	char src[] = "Hello, Gemini!";
+	char dest[2];
+	
+	/*printf("%d\n",ft_isdigit('7'));
 	printf("%d\n",ft_isalpha('h'));
 	printf("%d\n",ft_isalnum('0'));
 	printf("%d\n",ft_isascii('&'));
+	*/
+	printf("%s\n",(char *)ft_memcpy(dest, src, 0));
+	printf("%p\n",ft_memcpy(dest, NULL, 5));
+	printf("%s\n", ft_memmove(dest, src, 7));
 	return (0);
+	
 }
