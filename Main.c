@@ -18,5 +18,6 @@ int	main(void)
 	printf("%d\n", ft_atoi(" "));
 	*/
 	printf("%s\n", ft_substr("John", 2, 4));
+	ft_putnbr_fd()
 	return (0);
 }
